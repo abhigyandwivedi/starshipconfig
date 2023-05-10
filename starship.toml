@@ -2,8 +2,9 @@ format = """
 $os\
 [](#9A348E)\
 $username\
-[](bg:#FFFF00 fg:#9A348E)\
-[ ](fg:#FFFF00 bg:#000000)\
+[](bg:#000000 fg:#9A348E)\
+[](bg:#FFFF00 fg:#000000)\
+[](fg:#FFFF00 bg:#000000)\
 $git_branch\
 $git_status\
 $c\
@@ -107,7 +108,7 @@ format = '[ $symbol $branch ]($style)'
 
 [git_status]
 style = "fg:#ffd700 bg:#000000"
-format = '[$all_status $ahead_behind ]($style)'
+format = '[$all_status $ahead_behind]($style)'
 
 [golang]
 symbol = " "
