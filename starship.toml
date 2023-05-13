@@ -1,3 +1,4 @@
+add_newline = false
 format = """
 $os\
 [](#9A348E)\
@@ -157,8 +158,8 @@ format = '[󱎕 $symbol ($version) ]($style)'
 
 [time]
 disabled = false
-time_format = "%R"            # Hour:Minute Format
-style = "bg:#9A348E"
+time_format = "%R"              # Hour:Minute Format
+style = "fg:#00ff00 bg:#9A348E"
 format = '[ 󰁫 $time]($style)'
 
 
