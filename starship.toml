@@ -35,7 +35,9 @@ $conda\
 [ ](fg:000000 bg:#000000)\
 [](fg:000000 bg:#FFFF00)\
 $directory\
-[](fg:#FFFF00 bg:#000000)\
+[](fg:#FFFF00 bg:#000000)\  
+[a](fg:#000000 bg:#000000)\  
+⏰
 [](fg:#000000 bg:#9A348E)\
 $time\
 [](fg:#9A348E bg:#000000)"""
@@ -160,7 +162,7 @@ format = '[󱎕 $symbol ($version) ]($style)'
 disabled = false
 time_format = "%R"              # Hour:Minute Format
 style = "fg:#00ff00 bg:#9A348E"
-format = '[ 󰁫 $time]($style)'
+format = '[ $time]($style)'
 
 
 [hg_branch]
